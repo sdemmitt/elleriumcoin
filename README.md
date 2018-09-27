@@ -4,7 +4,7 @@ Shell script to install an [Ellerium Masternode](https://bitcointalk.org/index.p
 
 ## Installation 
 ```
-wget -q https://raw.githubusercontent.com/click2install/elleriumcoin/master/install-ellerium.sh  
+wget -q https://raw.githubusercontent.com/sdemmitt/elleriumcoin/master/install-ellerium.sh
 bash install-ellerium.sh
 ```
 
