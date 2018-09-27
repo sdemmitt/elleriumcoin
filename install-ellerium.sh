@@ -3,13 +3,13 @@
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE="ellerium.conf"
 DEFAULT_USER="ellerium-mn1"
-DEFAULT_PORT=6110
+DEFAULT_PORT=9850
 DEFAULT_SSH_PORT=22
 DAEMON_BINARY="elleriumd"
 CLI_BINARY="ellerium-cli"
 DAEMON_BINARY_FILE="/usr/local/bin/$DAEMON_BINARY"
 CLI_BINARY_FILE="/usr/local/bin/$CLI_BINARY"
-DAEMON_ZIP="https://github.com/ElleriumProject/Elleriumv2/files/2031996/linux.walletV6.1.1.zip"
+DAEMON_ZIP="https://github.com/ElleriumProject/Elleriumv2/releases/download/V2.0.0.0/linux_daemon.zip"
 GITHUB_REPO="https://github.com/ElleriumProject/Elleriumv2"
 
 RED='\033[0;31m'
