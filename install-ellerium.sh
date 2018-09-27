@@ -98,7 +98,7 @@ function deploy_binary()
   else
     cd $TMP_FOLDER
 
-    archive=linux.walletV6.1.1.zip
+    archive=linux_daemon.zip
 
     echo -e "${GREEN}Downloading $DAEMON_ZIP and deploying the Ellerium service.${NC}"
     wget $DAEMON_ZIP -O $archive >/dev/null 2>&1
